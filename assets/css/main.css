@@ -52,10 +52,11 @@ p.hero-text {
 
 p.proj-number {
 	font-family: "PT Mono";
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 200;
 	color: #A1A1A1;
 	letter-spacing: 0;
+	margin: 0;
 }
 
 p.proj-date {
@@ -112,6 +113,23 @@ a.proj-link {
 
 hr.proj-hr {
 	border: 0.5px solid #4F76EB;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a.proj-img-link {
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#rbc {
+	background-image: url('../images/rbc/rbc-mockup.jpg')
 }
 
 
@@ -275,19 +293,43 @@ p.rotate-link {
 
 .project {
 	display: flex;
-	padding-top: 3.5rem;
-	padding-bottom: 5rem;
+	padding-top: 4rem;
+    padding-bottom: 1rem;
 }
 
 .project-img {
-	width: 55%;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat:no-repeat;
+  	background-size:cover;
+  	position: relative;
+}
+
+	.project-img:hover {
+		transform: scale(1.1);
+		transition: all ease-in .3s;
+		-o-transition: all ease-in .3s;
+		-moz-transition: all ease-in .3;
+		-webkit-transition: all ease-in .3s;
+	}
+
+
+.p-img-container {
+	width: 52.5%;
+	height: auto;
+	overflow: hidden;
 }
 
 .project-desc {
-	width: 45%;
-	padding-left: 2.5%;
+	width: 47.5%;
+	padding-left: 3%;
 }
 
 .proj-link {
 	display: flex;
+}
+
+.work {
+	margin-bottom: 5rem;
 }
