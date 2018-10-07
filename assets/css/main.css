@@ -66,6 +66,7 @@ p.proj-date {
 	color: #A1A1A1;
 	letter-spacing: 0;
 	margin-bottom: 3.25rem;
+	text-transform: uppercase;
 }
 
 p.proj-desc {
@@ -128,10 +129,18 @@ a.proj-img-link {
 	left: 0;
 }
 
+video {
+	display: inline-block;
+}
+
 #rbc {
 	background-image: url('../images/rbc/rbc-mockup.jpg')
 }
 
+
+#envapp {
+	background-image: url('../images/envapp/envapp-mockup.jpg');
+}
 
 /* Nav */
 
@@ -238,6 +247,8 @@ hr.hero-hr-r {
 	height: 20px;
 	stroke: #4F76EB;
 	stroke-width: 1.5;
+    transform: translate(-8px, 4px);
+
 }
 
 	.feather:hover {
@@ -281,6 +292,44 @@ p.rotate-link {
 	-webkit-transition: ease-in .2s;
 }
 
+footer {
+	text-align: center;
+    margin-top: 215px;
+}
+
+.footer-container {
+	width: 37.5%;
+	display: inline-block;
+}
+
+.footer-icons {
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+a.footer-contact {
+	font-family: "Muli", sans-serif;
+	font-size: 13.5px;
+	text-decoration: none;
+	color: #4F76EB;
+}
+
+	a.footer-contact:hover {
+		opacity: 0.6;
+		transition: ease-in .2s;
+		-o-transition: ease-in .2s;
+		-moz-transition: ease-in .2;
+		-webkit-transition: ease-in .2s;
+	}
+
+p.footer-p {
+	font-family: "PT Mono";
+	font-size: 12px;
+	letter-spacing: 0;
+	color: #A1A1A1;
+}
+
 /* Divs */
 
 .container {
@@ -302,12 +351,12 @@ p.rotate-link {
 	height: 100%;
 	background-position: center;
 	background-repeat:no-repeat;
-  	background-size:cover;
+  	background-size: cover;
   	position: relative;
 }
 
 	.project-img:hover {
-		transform: scale(1.1);
+		transform: scale(1.075);
 		transition: all ease-in .3s;
 		-o-transition: all ease-in .3s;
 		-moz-transition: all ease-in .3;
