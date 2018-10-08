@@ -227,10 +227,10 @@ img {
 	max-height: 100%;
 }
 
-/*img.work-img {
+img.work-img {
 	margin-bottom: 2em;
 }
-*/
+
 a.proj-img-link {
 	display: block;
 	width: 100%;
@@ -535,6 +535,15 @@ p.footer-p {
 	padding-left: 11%;
 	padding-right: 11%;
 	padding-bottom: 2em;
+}
+
+.case-container-small {
+	width: 38%;
+	padding-left: 3%;
+}
+
+.case-container-lg {
+	width: 62%;
 }
 
 .full-w-case {
