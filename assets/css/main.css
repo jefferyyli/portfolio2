@@ -550,6 +550,16 @@ p.footer-p {
 	margin-top: 2em;
 }
 
+.img-flex-half {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3em;
+}
+
+.img-half {
+	width: 48.5%;
+}
+
 .project {
 	display: flex;
 	padding-top: 4rem;
