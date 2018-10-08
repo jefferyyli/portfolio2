@@ -17,10 +17,8 @@
 				<div class="nav-right">
 					<a href="#" class="navR">Work</a>
 					<!-- <a href="#" class="navR">Misc.</a> -->
-					<p class="unavailable">Misc.</p>
 					<a href="#" class="navR">Resume</a>
-					<!-- <a href="#" class="navR">About</a> -->
-					<p class="unavailable">About</p>
+					<a href="#" class="navR">About</a>
 				</div>
 			</nav>
 			<div class="hero">
@@ -45,7 +43,7 @@
 							<hr class="hero-hr-r">
 						</div>
 						<div>
-							<a href="mailto:jeffery.li@uwaterloo.ca" class="hero-link-r"><i data-feather="mail" style="transform: rotate(90deg); margin-top: 11.5em;"></i></a>
+							<a href="mailto:jeffery.li@uwaterloo.ca" class="hero-link-r"><i data-feather="mail" id="i-mail"></i></a>
 						</div>
 					</div>
 				</div>
@@ -64,7 +62,7 @@
 						<h3 class="proj-name">RBC Pathway</h3>
 						<p class="proj-desc">Designing a new tool to empower UX Designers and Researchers to share and record their processes at the Royal bank of Canada.</p>
 						<div class="proj-link">
-							<div style="width: 17.5%;">
+							<div class="see-more">
 								<a href="design/rbc-pathway.html" class="proj-link">see more</a>
 							</div>
 							<div style="width: 82.5%;">
@@ -77,7 +75,7 @@
 					<div class="p-img-container">
 						<div class="project-img">
 							<a href="design/htn.html" class="proj-img-link">
-								<video width=100% height="auto" no-controls autoplay loop muted>
+								<video width=100% height="auto" no-controls autoplay loop muted class="home-vid">
 									<source src="assets/images/htn/htn-animation.mp4" type="video/mp4">
 									Your browser does not support the video tag.
 								</video>
@@ -90,7 +88,7 @@
 						<h3 class="proj-name">Hack the North</h3>
 						<p class="proj-desc">Designing for the biggest hackathon in Canada.</p>
 						<div class="proj-link">
-							<div style="width: 17.5%;">
+							<div class="see-more">
 								<a href="design/htn.html" class="proj-link">see more</a>
 							</div>
 							<div style="width: 82.5%;">
@@ -101,7 +99,7 @@
 				</div>
 				<div class="project">
 					<div class="p-img-container">
-						<div class="project-img" id=envapp>
+						<div class="project-img" id="envapp">
 							<a href="design/envapp.html" class="proj-img-link"></a>
 						</div>
 					</div>
@@ -111,7 +109,7 @@
 						<h3 class="proj-name">Env. App Design Challenge</h3>
 						<p class="proj-desc">Motivating users to become more environmentally conscious.</p>
 						<div class="proj-link">
-							<div style="width: 17.5%;">
+							<div class="see-more">
 								<a href="design/envapp.html" class="proj-link">see more</a>
 							</div>
 							<div style="width: 82.5%;">
@@ -146,6 +144,7 @@
 	<script>
 		feather.replace();
 	</script>
+	<!-- <script src="assets/js/smoothscroll.js"></script> -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109259214-1">
 	</script>
 	<script>
