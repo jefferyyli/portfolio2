@@ -47,7 +47,7 @@ h1 {
 }
 
 h2.case-title {
-	font-size: 40px;
+	font-size: 42px;
 	color: #2B2B2B;
 	font-weight: 900;
 	margin: 0;
@@ -60,13 +60,23 @@ h3.proj-name {
 }
 
 h3.sect-title {
-	font-size: 13.5px;
+	font-size: 16px;
 	color: #cccccc;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin-bottom: 1.3em;
 	margin-top: 0;
+}
+
+h3.sect-title-space {
+	font-size: 16px;
+	color: #cccccc;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 1.3em;
+	margin-top: 4.5em;
 }
 
 h4.case-info-title {
@@ -86,6 +96,7 @@ p.case-subtitle {
 	color: #A1A1A1;
 	line-height: 24px;
 	font-size: 13.5px;
+	margin-bottom: 3em;
 }
 
 p.hero-text {
@@ -147,8 +158,8 @@ p.subtitle {
 	line-height: 15px;
 	letter-spacing: 0.7px;
 	color: #A1A1A1;
-	margin-bottom: 5em;
 	font-style: italic;
+	margin-bottom: 3.5em;
 }
 
 a {
@@ -202,9 +213,13 @@ hr.proj-hr {
 }
 
 hr.case-hr {
+	border: 0.5px solid #A1A1A1;
+	margin-bottom: 3em;
+}
+
+hr.case-whole-hr {
 	border: 0.5px solid #4F76EB;
 	margin-top: 3em;
-	margin-bottom: 4em;
 }
 
 img {
@@ -317,31 +332,34 @@ a.navL {
 	justify-content: space-between;
 }
 
+#scrollToTop {
+    position: fixed;
+    bottom: 2.5em;
+    right: 3em;
+    z-index: 999;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+}
+
+	#scrollToTop:hover {
+		opacity: 0.6;
+	}
+
+#arrow {
+	width: 24px;
+    height: 24px;
+    stroke: #2b2b2b;
+    stroke-width: 1.5px;
+    transform: translate(-5px, -5px);
+}
+
 /* Hero */
-
-.case-intro {
-	display: flex;
-	margin-top: 9em;
-}
-
-.case-desc {
-	width: 55%;
-}
-
-.case-info {
-	width: 45%;
-	padding-left: 7%;
-}
-
-.case-3-col {
-	display: flex;
-	justify-content: space-between;
-	margin-top: -1.5em;
-}
-
-.case-3-sect {
-	width: 29.5%;
-}
 
 .hero {
 	display: flex;
@@ -474,18 +492,53 @@ p.footer-p {
 
 .case-container {
 	width: 55%;
-	margin-top: 2em;
 }
 
 .case-container-flex {
 	display: flex;
-	margin-top: 2em;
+	padding-top: 3.5em;
+}
+
+.case-intro {
+	margin-top: 8em;
+	display: flex;
+}
+
+.case-desc {
+	width: 55%;
+}
+
+.case-info {
+	width: 45%;
+    padding-left: 10%;
+}
+
+.case-3-col {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -1.5em;
+}
+
+.case-3-sect {
+	width: 29.5%;
 }
 
 .case-img {
 	width: 45%;
-	padding-left: 7%;
-	margin-top: 3em;
+	padding-left: 7.5%;
+}
+
+.case-img-space {
+	width: 100%;
+	padding-top: 2em;
+	margin: auto;
+	padding-left: 11%;
+	padding-right: 11%;
+	padding-bottom: 2em;
+}
+
+.full-w-case {
+	margin-top: 2em;
 }
 
 .project {

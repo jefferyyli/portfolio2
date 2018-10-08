@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Jeffery Li</title>
+		<title>RBC Pathway</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../assets/css/main.css"/>
@@ -23,16 +23,15 @@
 					<!-- <a href="#" class="navR">About</a> -->
 					<p class="unavailable">About</p>
 				</div>
+				<a href="#top" onclick="scrollToTop();return false"><button id="scrollToTop"><i data-feather="arrow-up" id="arrow"></i></button></a>
 			</nav>
 			<div class="case-intro">
 				<div class="case-desc">
 					<h2 class="case-title">RBC Pathway</h2>
-					<p class="case-subtitle">Designing a tool to empower UX Designers and Researchers to share and record their processes.</p> 
-					<div class="case-div">
-						<h3 class="sect-title">background</h3>
-						<p>During my internship at the Royal Bank of Canada, I was given the opportunity to lead a project from start to finish with other fellow co-op students, <a href="https://www.linkedin.com/in/danielkim5/" target=_blank>Daniel Kim</a> and <a href="https://www.linkedin.com/in/emilymacgowan/" target=_blank>Emily MacGowan</a>.</p>
-						<p>The problem that we were given by our managers is that at RBC, many employees do not share their research findings and we wanted to figure out why that is happening and how we can solve that problem.</p>
-					</div>
+					<p class="case-subtitle">Designing a tool to empower UX Designers and Researchers to share and record their processes.</p>
+					<h3 class="sect-title">background</h3>
+					<p>During my internship at the Royal Bank of Canada, I was given the opportunity to lead a project from start to finish with other fellow co-op students, <a href="https://www.linkedin.com/in/danielkim5/" target=_blank>Daniel Kim</a> and <a href="https://www.linkedin.com/in/emilymacgowan/" target=_blank>Emily MacGowan</a>.</p>
+					<p>The problem that we were given by our managers is that at RBC, many employees do not share their research findings and we wanted to figure out why that is happening and how we can solve that problem.</p>
 				</div>
 				<div class="case-info">
 					<h4 class="case-info-title">Role</h4>
@@ -43,26 +42,23 @@
 					<ol>
 						<li> <a href="#pre-discovery">Pre-Discovery & Problem Framing</a></li>
 						<li> <a href="#research">Research & Insights</a></li>
-						<li> <a href="#design">User Flows & Design</a></li>
-						<li> <a href="#development">Testing & Development</a></li>
-						<li> <a href="#conclusion">Conclusion</a></li>
-					</ul>
+						<li> <a href="#design">Site map, User Flows & Design</a></li>
+						<li> <a href="#conclusion">Testing, Development &amp; Conclusion</a></li>
+					</ol>
 				</div>
 			</div>
-			<hr class="case-hr">
-			<div class="case-container"><a id="pre-discovery"></a>
-				<h3 class="sect-title">pre-discovery</h3>
-				<p>During this phase, we wanted to understand the problem space before moving into the solution space. For our pre-discovery research, we wanted to understand:</p>
-				<ul>
-					<li>The possible users and stakeholders and understand their needs</li>
-					<li>Documented the potential impact of success with our project</li>
-					<li>The business goals associated with this problem space</li>
-				</ul>
-				<p>Once we felt that we did enough pre-discovery research we moved into problem framing phase to give us a starting point for our research.</p>
-			</div>
+			<hr class="case-whole-hr">
 			<div class="case-container-flex">
-				<div class="case-container">
-					<h3 class="sect-title">problem framing</h3>
+				<div class="case-container"><a id="pre-discovery"></a>
+					<h3 class="sect-title">pre-discovery</h3>
+					<p>During this phase, we wanted to understand the problem space before moving into the solution space. For our pre-discovery research, we wanted to understand:</p>
+					<ul>
+						<li>The possible users and stakeholders and understand their needs</li>
+						<li>Documented the potential impact of success with our project</li>
+						<li>The business goals associated with this problem space</li>
+					</ul>
+					<p>Once we felt that we did enough pre-discovery research we moved into problem framing phase to give us a starting point for our research.</p>
+					<h3 class="sect-title-space">problem framing</h3>
 					<p>To unpack the problem space, we hosted a problem framing workshop with our team (Employee Digital Experience Architecture). At the workshop we gave the participants the following seed question: “What might be the biggest challenge when sharing research/insights and accessing existing research/insights?”</p>
 					<p>The participants were asked to write down some of the challenges they face in their day-to-day lives at work on sticky notes so that we can cluster the themes.</p>
 					<h4 class="sect-subtitle">Initial HMW Statement</h4>
@@ -71,6 +67,7 @@
 				</div>
 				<div class="case-img">
 					<img src="../assets/images/rbc/pathway1.jpeg" alt="Problem framing" class="case-pic" data-action="zoom">
+					<p class="subtitle">The resulting themes from the framing session includes: context, redundancy in work, awareness, efficiency, challenging your research, finding research, organization, sharing/cultural, technical, quality/reliability.</p>
 				</div>
 			</div>
 			<div class="case-container-flex"><a id="research"></a>
@@ -83,7 +80,7 @@
 					<div class="case-3-col">
 						<div class="case-3-sect">
 							<h4 class="sect-subtitle">Insight #1</h4>
-							<p>RBC researchers rarely share the context and process for their research, instead they primarily share their polished research in the form of artifacts such as personas, insight statements, and PowerPoint Presentations.</p>
+							<p>RBC researchers rarely share the context and process for their research, instead they primarily share their polished research in the form of artifacts.</p>
 						</div>
 						<div class="case-3-sect">
 							<h4 class="sect-subtitle">Insight #2</h4>
@@ -96,27 +93,46 @@
 					</div>
 					<h4 class="sect-subtitle">Problem Reframe</h4>
 					<p>After synthesizing our research and crafting insight statements we re-framed our initial problem statement based on our primary and secondary research. This is our revised problem statement:</p>
-					<p class="quote">"How might we enable RBC researchers to more easily and proactively document their research, and feel comfortable in doing so, so that other researchers can leverage the output and/or further their design process?</p>
+					<p class="quote">"How might we enable RBC researchers to more easily and proactively document their research, and feel comfortable in doing so, so that other researchers can leverage the output and/or further their design process?"</p>
 					<p>At RBC, we discovered that sharing is not a proactive part of the research and employees typically only share when there is a request. Researchers are also more likely to use existing research if they know how relevant it is in today's context, if the source is reputable and if the context is close to their own. Researchers at RBC also rarely share the entire context or process of their own research. Instead, they primarily share their research in polished forms of artifacts such as PowerPoint presentations, personas, and insight statements.</p>
 					<h4 class="sect-subtitle">Persona</h4>
 					<p>A primary evidence-based persona was developed using the research we conducted as a team. In this persona we outlined user goals, behaviours, current pains, values, tools used and their needs and desires with respect to finding, sharing, using and documenting research.</p>
 				</div>
-					<div class="case-img">
-						<img class="work-img" src="../assets/images/rbc/pathway2.jpeg" alt="Homebase" class="case-pic" data-action="zoom">
-						<p class="subtitle">As RBC did not have a dedicated space for designers and researchers, we ended up stealing a touchdown room and stayed in there for a week until we were kicked out.</p>
-						<img class="work-img" src="../assets/images/rbc/pathway3.jpeg" alt="Persona" class="case-pic" data-action="zoom" style="border: 1px solid #cacaca;">
-						<p class="subtitle">Persona we've developed.</p>
-					</div>
+				<div class="case-img">
+					<img class="work-img" src="../assets/images/rbc/pathway2.jpeg" alt="Homebase" class="case-pic" data-action="zoom">
+					<p class="subtitle">As RBC did not have a dedicated space for designers and researchers, we ended up stealing a touchdown room and stayed in there for a week until we were kicked out.</p>
+					<img class="work-img" src="../assets/images/rbc/pathway3.jpeg" alt="Persona" class="case-pic" data-action="zoom" style="border: 1px solid #cacaca;">
+					<p class="subtitle">Persona we've developed.</p>
 				</div>
-				<div class="case-container-flex"><a id="design"></a>
-					<div class="case-container">
-						<h3 class="sect-title">Site Map & User Flows</h3>
-						<p>As the main function of our tool is for users to record their processes, the project tree was the landing page. The user can easily navigate to the project tree from searching or finding projects, and as well as viewing projects from their team page.</p>
-						<h4 class="sect-subtitle">Create Project Tree User Flow</h4>
-						<p>We wanted the flow of creating a project tree to be intuitive by making it a simple and easy process for the user.</p>
-						<h4 class="sect-subtitle">Mockups</h4>
-						<p>Our solution to this problem was creating a "project tree" to help users easily document the research process and sharing that process with other researchers and stakeholders across the bank. As designers and researchers, we do a lot of our work on a whiteboard or stickies, and as well as create many digital artifacts. For a better file organization, users are able to add images or documents to their project tree.</p>
-					</div>
+			</div>
+			<div class="case-container-flex"><a id="design"></a>
+				<div class='case-container'>
+					<h3 class="sect-title">Site Map & User Flows</h3>
+					<p>As the main function of our tool is for users to record their processes, the project tree was the landing page. The user can easily navigate to the project tree from searching or finding projects, and as well as viewing projects from their team page.</p>
+					<h4 class="sect-subtitle">Create Project Tree User Flow</h4>
+					<p>We wanted the flow of creating a project tree to be intuitive by making it a simple and easy process for the user.</p>
+					<h4 class="sect-subtitle">Project Tree</h4>
+					<p>Our solution to this problem was creating a "project tree" to help users easily document the research process and sharing that process with other researchers and stakeholders across the bank. As designers and researchers, we do a lot of our work on a whiteboard or stickies, and as well as create many digital artifacts. For a better file organization, users are able to add images or documents to their project tree.</p>
+					<h4 class="sect-subtitle">Helping further the design field at RBC</h4>
+					<p>Our team wanted to further the design field at RBC; very few teams at RBC were educated about research and design thinking so we wanted to help employees learn more about these processes so that they can create better products and make better decisions. For example, one individual we interviewed was a UI/UX Designer and they did not know how to conduct user research and did not incorporate these methods into their design process.</p>
+					<p>We also had different preset templates for the users if they had no knowledge on research to guide them in the right direction. Users were also able to create their own templates or duplicate trees so that they can document their research much faster.</p>
+					<h3 class="sect-title-space">User Testing &amp; Development</h3><a id="#conclusion"></a>
+					<p>After completing the mockups, we prototyped Pathway on InVision and did some user testing. As we were in our final week of our internship, we were concurrently developing Pathway and running user-testing sessions as time was short. Dan led the development while Emily and I assisted as we wanted to get our hands dirty with front-end development. We used ReactJS to create our live prototype. On the other end, Emily led user-testing and we did what we could in the time we had left. We generally received positive feedback and incorporated the feedback into our prototype. In the end, we developed a somewhat functional Pathway and handed off our project to our team for the next set of co-ops</p>
+					<h3 class="sect-title-space">Lessons learned</h3>
+					<p>During this project, I learned about the value of research and how it can inform my design. In the beginning, I was focused on the solution and did not think much of the problem space. Overtime, we uncovered more information that ultimately lead us to our final design where we received positive feedback from many designers and researchers at RBC. Many of our colleagues said that our tool was useful and that they would definitely use it at work.</p>
+					<p>Our project was also time-sensitive as we only had two months to create a functioning proof of concept. We spent the bulk of our time with research because we wanted to get the solution right but because of this, we didn't have much time to do user-testing and incorporate feedback to reiterate our designs. Project planning and time-management is definitely another thing I would focus on next time.</p>
+				</div>
+				<div class="case-img">	
+					<img class="work-img" src="../assets/images/rbc/sitemap.png" alt="Site map" class="case-pic" data-action="zoom">
+					<p class="subtitle">RBC Pathway site map.</p>
+					<img class="work-img" src="../assets/images/rbc/newprojectflow.png" alt="Create project tree user flow" class="case-pic" data-action="zoom">
+					<p class="subtitle">Create project tree user flow.</p>
+					<img class="work-img" src="../assets/images/rbc/projecttree.jpg" alt="Project tree" class="case-pic" data-action="zoom" style="border: 1px solid #cacaca;">
+					<p class="subtitle">RBC Pathway project tree.</p>
+					<img class="work-img" src="../assets/images/rbc/projecttemplate.png" alt="Project templates" class="case-pic" data-action="zoom">
+					<p class="subtitle">Project tree templates.</p>
+					<img class="work-img" src="../assets/images/rbc/findprojects.png" alt="Finding projects" class="case-pic" data-action="zoom" style="border: 1px solid #cacaca;">
+					<p class="subtitle">Users can find suggested projects or search on the "Find Projects" page.</p>
 				</div>
 			</div>
 			<footer>
@@ -147,6 +163,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="../assets/js/zoom.js"></script>
 	<script src="../assets/js/transition.js"></script>
+	<script src="../assets/js/scrolltop.js"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109259214-1">
 	</script>
 	<script>
