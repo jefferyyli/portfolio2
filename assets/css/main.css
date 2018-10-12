@@ -253,7 +253,7 @@ video {
 
 
 #envapp {
-	background-image: url('../images/envapp/envapp-mockup.jpg');
+	background-image: url('../images/envapp/envapp-mockup2.jpg');
 }
 
 /* Nav */
@@ -610,7 +610,6 @@ p.footer-p {
 	width: 52.5%;
 	height: auto;
 	overflow: hidden;
-	background-color: #f4fbff;
 }
 
 .project-desc {
