@@ -212,6 +212,24 @@ a.proj-link {
 	    -webkit-transition: ease-in .2s;
 	}
 
+p.proj-link-cs {
+	font-family: "PT Mono";
+	font-size: 13px;
+	color: #A1A1A1;
+	letter-spacing: 0;
+	text-decoration: none;
+	margin: 0;
+	margin-top: -0.35em;
+}
+
+p.proj-link-cs:hover {
+		opacity: 0.5;
+		transition: ease-in .2s;
+	    -o-transition: ease-in .2s;
+	    -moz-transition: ease-in .2s;
+	    -webkit-transition: ease-in .2s;
+	}
+
 hr.proj-hr {
 	border: 0.5px solid #4F76EB;
 }
@@ -243,8 +261,14 @@ a.proj-img-link {
 	left: 0;
 }
 
+
+
 video {
 	display: inline-block;
+}
+
+#atlas {
+	background-image: url('../images/atlas/atlas_mock.png');
 }
 
 #rbc {
@@ -616,6 +640,25 @@ p.footer-p {
     transition: .5s ease;
 }
 
+#comingsoon {
+  opacity: 0;
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  font-size: 1.75em;
+  text-shadow: 2px 2px 8px #00000b85;
+  position: relative;
+  top: -51.5%;
+  left: 50%;
+  max-width: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.project-img:hover #comingsoon{
+	opacity: 1;
+}
 
 .p-img-container {
 	width: 52.5%;
