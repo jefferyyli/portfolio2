@@ -246,6 +246,10 @@ a.proj-img-link {
 	left: 0;
 }
 
+#unavailable {
+	cursor: not-allowed;
+}
+
 button.tag {
 	background-color: rgba(31,101,237,0.1);
 	color: #1F65ED;
@@ -259,10 +263,19 @@ button.tag {
     margin-right: .5rem;
 }
 
+#comingsoon {
+	background-color: rgba(116, 127, 148, 0.1);
+    color: #696969;
+}
+
 
 
 video {
 	display: inline-block;
+}
+
+#arc {
+	background-image: url('../images/arc/arc-mock.png');
 }
 
 #atlas {
@@ -684,7 +697,7 @@ p.footer-p {
 }
 
 .work {
-	margin-bottom: 5rem;
+	margin-bottom: 2.5rem;
 	display: flex;
 	justify-content: space-between;
 }
