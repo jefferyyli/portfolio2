@@ -12,16 +12,16 @@ body {
 	box-sizing: border-box;;
 }
 
-h1, h2, h3, h4 ,h5, h6, a {
+h1, h2, h3, h4 ,h5, h6, a, th {
 	font-family: "Avenir", sans-serif;
 	letter-spacing: 0.8px;
 	margin-bottom: -0.25em;
 }
 
-p {
+p, td {
 	font-family: "Rubik", sans-serif;
 	letter-spacing: 0.5px;
-	line-height: 23px;
+	line-height: 22px;
 	font-size: 14px;
     font-weight: 100;
     color: #696969;
@@ -246,6 +246,46 @@ a.proj-img-link {
 	left: 0;
 }
 
+/* TABLE */
+
+/*table {
+	text-align: left;
+	border-collapse: separate;
+    border-radius: 15px;
+    border: 1px #040E30 solid;
+}
+
+th {
+	background-color: #040E30;
+	color: #fff;
+	width: 25%;
+	padding: 12px;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+th:first-child {
+	border-radius: 12px 0 0 0;
+}
+
+th:last-child {
+	border-radius: 0 12px 0 0;
+}
+
+td {
+	padding: 12px;
+	vertical-align: top;
+	font-size: 13px;
+	line-height: 20px;
+}*/
+
+/*tr:last-child {
+	border: 1px #040E30 solid;
+	border-collapse: separate;
+	border-radius: 0 0 12px 12px;
+}*/
+
+
 #unavailable {
 	cursor: not-allowed;
 }
@@ -313,6 +353,10 @@ video {
 
 #envapp {
 	background-image: url('../images/envapp/envapp-mockup2.jpg');
+}
+
+#swap {
+	background-image: url('../images/swap/swap-mockup.png');
 }
 
 /* Nav */
