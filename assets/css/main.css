@@ -314,9 +314,6 @@ video {
 	display: inline-block;
 }
 
-#arc {
-	background-image: url('../images/arc/arc-mock.png');
-}
 
 #atlas {
 	background-image: url('../images/atlas/atlas.gif');
@@ -355,8 +352,12 @@ video {
 	background-image: url('../images/envapp/envapp-mockup2.jpg');
 }
 
-#swap {
-	background-image: url('../images/swap/swap-mockup.png');
+#ticketflip {
+	background-image: url('../images/ticketflip/ticketflip-mockup.png');
+}
+
+#ticketflip2 {
+	background-image: url('../images/ticketflip/ticketflip_cover.png');
 }
 
 /* Nav */
