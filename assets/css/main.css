@@ -197,6 +197,11 @@ a.proj-link {
 	    -webkit-transition: ease-in .2s;
 	}
 
+a.nav-logo {
+	font-size: 15px;
+	font-weight: 700;
+}
+
 p.proj-link-cs {
 	font-family: "PT Mono";
 	font-size: 13px;
@@ -314,6 +319,12 @@ video {
 	display: inline-block;
 }
 
+/* IMAGE COVERS */
+
+#about {
+	background-image: url('../images/about.png');
+	background-position: bottom;
+}
 
 #atlas {
 	background-image: url('../images/atlas/atlas.gif');
@@ -443,6 +454,7 @@ a.navL {
 	width: 30%;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 #scrollToTop {
