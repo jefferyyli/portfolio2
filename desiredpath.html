@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>DesiredPath Prototype 1</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/zoom.css"/>
+		<link rel="shortcut icon" type="image/png" href="assets/images/logo.ico">
+		<script src="https://unpkg.com/feather-icons"></script>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav">
+				<div class="nav-left">
+					<a href="index.html" class="nav-logo"><img src="assets/images/jl_logo.png" style="max-width: 35px"></a>
+				</div>
+				<div class="nav-right">
+					<a href="assets/documents/jeffery_resume.pdf" target=_blank class="navR">resume</a>
+					<a href="about.html" class="navR">about</a>
+				</div>
+			</nav>
+			<div class="container-case">
+				<h2 class="case-title" style="margin-top: 8rem;">DesiredPath Prototype 1</h2>
+				<p class="case-subtitle">February 16, 2020</p>
+				<p>To take a closer look at the screens and prototype please follow this <a href="https://www.figma.com/file/DOgHoTViWRG0SUOzk1eFkc/DesiredPath-for-Client?node-id=26%3A6" target=_blank>link</a>.</p>
+				<p>To play with the prototype, click on the play button beside the login button on the toolbar on the top right of this software.</p> 
+				<img src="assets/images/desiredpath/figma.png">
+				<p>Below are some of my thoughts for each part of the prototype. As this is first prototype and many things will change, the prototype is not yet fully clickable to save time for the other iterations (e.g. there are only 3 play records on the intelligent framework screen).</p>
+				<h3 sect="sect-title">DesiredPath Dashboard</h3>
+				<p>After our review session last week, there are a few changes on the dashboard page. The data point's/dot's size varies based on the health score. Another suggestion was putting the dots depending on where the customer is on each stage. You can see the separation of stages by the dotted line across the graph in the middle (each column on the graph has 6 dashed lines, each dashed line representing a phase in that stage). I wasn't too sure how many phases are in each stage so I put 6 in as a placeholder. Please let me know how many phases are in each stage so I can adjust in the next iteration! Also apologies on my terminology if it is wrong. </p>
+				<img src="assets/images/desiredpath/dashboard.png" data-action="zoom">
+				<p>I've also changed the "Revenue by Phase" chart by changing it into a column chart and adding the total revenue in large font.</p>
+				<h3 class="sect-title">Dashboard Filter</h3>
+				<p>The video below shows the filtering capability for the dashboard on the prototype. For this prototype you are only able to filter by CSM, Segment and Green health. </p>
+				<video width="100%" height="100%" controls>
+				  <source src="assets/images/desiredpath/dashboard_filter.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<h3 class="sect-title">Dashboard Hover</h3>
+				<p>For this interaction, whenever a user hovers over a data point, the dot will "glow" a bit and then the user would be abe to click on whichever dot they are hovering.</p>
+				<video width="100%" height="100%" controls>
+				  <source src="assets/images/desiredpath/dashboard_hover.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<p>Each dot on the graph will have an opacity of 50% so that whenever data points are overlapping, you would still be able to see them. Currently, if a data point is in the same spot with the same size/healthscore, it would be much harder to see or select the dot. I will continue to look into this and to try to fix it in the next iteration.</p>
+				<img src="assets/images/desiredpath/dashboard_overlap.png" data-action="zoom">
+				<h3 class="sect-title">Dashboard Revenue to Customers List Interaction</h2>
+				<p>On the graph, when a user hovers over the revenue, it will glow a bit to indicate that it is clickable. Once the user clicks on it, it would send it them over to the customers list.</p>
+				<video width="100%" height="100%" controls>
+				  <source src="assets/images/desiredpath/dashboard_rev_cl.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<h3 class="sect-title">Dashboard Opportunities</h3>
+				<p>When I was designing the screens for the dashboard I thought of two ideas (done in my own time very quickly). When a user opens up DesiredPath, they could be greeted with a message or this can explain how to use your software.</p>
+				<img src="assets/images/desiredpath/dashboard_msg.png" data-action="zoom">
+				<p>I thought it would also be interesting to show dashboard stats such as how many green, yellows and reds are on the graph. If you'd like I can continue exploring these ideas further.</p>
+				<img src="assets/images/desiredpath/dashboard_stats.png" data-action="zoom">
+				<h3 class="sect-title">Intelligent Framework</h3>
+				<p>For this interaction, when a user hovers over a phase name, the phase name will change into a lighter colour indicating that it is clickable. Once a user clicks on the phase name, a box will pop up and will give more information about that stage.</p>
+				<video width="100%" height="100%" controls>
+				  <source src="assets/images/desiredpath/if_stage_hover.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<p>Similar to the phase hover interaction, the box for the revenue will change to a lighter colour. Clicking on it will move the user to the "Customers List" page with the corresponding table for that certain stage.</p>
+				<video width="100%" height="100%" controls>
+				  <source src="assets/images/desiredpath/if_cl_hover.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<p>Just like last interaction, it would be the same for hovering over and clicking on a play. I adjusted this screen a bit by including both the play information and graphic instead of two separate tabs.</p>
+				<video width="100%" height="100%" controls>
+				  <source src="assets/images/desiredpath/if_play_hover.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<h3 class="sect-title">Customers List</h3>
+				<p>Customers list will have the ability to filter by phase. The next iteration I will explore another way for users to digest all of this information and organizing the tables.</p>
+				<video width="100%" height="100%" controls>
+				  <source src="assets/images/desiredpath/customerlist.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+			</div>
+			<footer>
+				<div class="footer-container">
+					<div>
+						<h4>Say hello, contact me on any of these platforms!</h4>
+					</div>
+					<div class="footer-icons">
+						<div>
+							<a href="https://www.instagram.com/jefferyyli/" class="footer-contact" target=_blank><i data-feather="instagram"></i></a>
+						</div>
+						<div>
+							<a href="https://www.linkedin.com/in/jefferylii/" class="footer-contact" target=_blank><i data-feather="linkedin" style="fill: #2065ED; stroke: none;"></i></a>
+						</div>
+						<div>
+							<a href="https://twitter.com/jefferylii" class="footer-contact" target=_blank><i data-feather="twitter"></i></a>
+						</div>
+						<div>
+							<a href="mailto:jeffery.li@uwaterloo.ca" class="footer-contact"><i data-feather="mail"></i></a>
+						</div>
+					</div>
+					<div style="margin-top: 2rem;">
+						<p class="footer-p">Made with lots of ♥ and coffee.</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	<script>
+		feather.replace();
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/zoom.js"></script>
+	<script src="assets/js/transition.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109259214-1">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-109259214-1');
+	</script>
+	</body>
+</html>

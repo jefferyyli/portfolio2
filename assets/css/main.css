@@ -340,14 +340,14 @@ video {
 	transition: ease-in .3s;
 }
 
-	#twitter:hover {
+	/*#twitter:hover {
 		background-image: url('../images/twitter/twitter-cover-hover.png');
 		background-color: #55ADEE;
 		transition: ease-in .3s;
 	    -o-transition: ease-in .3s;
 	    -moz-transition: ease-in .3s;
 	    -webkit-transition: ease-in .3s;
-	}
+	}*/
 
 #twitter-2 {
 	background-image: url('../images/twitter/twitter-cover.png');
