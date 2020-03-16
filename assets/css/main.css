@@ -19,20 +19,20 @@ h1, h2, h3, h4 ,h5, h6, a, th {
 }
 
 p, td {
-	font-family: "Rubik", sans-serif;
+	font-family: "Avenir", sans-serif;
 	letter-spacing: 0.5px;
-	line-height: 22px;
-	font-size: 14px;
+	line-height: 165%;
+	font-size: 16px;
     font-weight: 100;
-    color: #696969;
+    color: #4E525A;
 	margin-bottom: 1.5em;
 }
 
 li, ul, ol {
-	font-family: "Rubik", sans-serif;
+	font-family: "Avenir", sans-serif;
 	letter-spacing: 0.5px;
-	line-height: 23px;
-	font-size: 14px;
+	line-height: 165%;
+	font-size: 16px;
     font-weight: 100;
     color: #696969;
 	margin-bottom: 0.5em;
@@ -47,8 +47,15 @@ h1 {
     letter-spacing: 0;
 }
 
+h2.about-title{
+	font-size: 28px;
+    color: #020813;
+    font-weight: 600;
+    margin: 0;
+}
+
 h4 {
-	font-weight: 600;
+	font-weight: 500;
 	color: #020813;
 	font-size: 18px;
 	margin-bottom: 0;
@@ -56,10 +63,16 @@ h4 {
     letter-spacing: 0;
 }
 
+h4.problem {
+	margin-top: 0;
+	font-size: 20px;
+	line-height: 150%;
+}
+
 h2.case-title {
-	font-size: 28px;
+	font-size: 48px;
 	color: #020813;
-	font-weight: 600;
+	font-weight: 500;
 	margin: 0;
 }
 
@@ -70,10 +83,11 @@ h3.proj-name {
 }
 
 h3.sect-title {
-	font-size: 20px;
+	font-size: 22px;
+	line-height: 150%;
 	color: #020813;
-	font-weight: 600;
-	margin: 3rem 0 1rem 0;
+	font-weight: 500;
+	margin: 3rem 0 0.5rem 0;
 }
 
 h4.sect-subtitle {
@@ -91,17 +105,17 @@ h4.sect-subtitle {
 }
 
 p.case-subtitle {
-	font-family: "Rubik", sans-serif;
+	font-family: "Avenir", sans-serif;
 	font-weight: 200;
-	color: #A1A1A1;
+	color: #4E525A;
 	line-height: 24px;
-	font-size: 13.5px;
-	margin-top: 0em;
+	font-size: 14px;
+	margin-top: -0.25em;
 	margin-bottom: 2em;
 }
 
 p.subtitle {
-	font-family: "Rubik", sans-serif;
+	font-family: "Avenir", sans-serif;
 	font-weight: 200;
 	color: #696969;
 	line-height: 20px;
@@ -220,6 +234,11 @@ p.proj-link-cs:hover {
 	    -webkit-transition: ease-in .2s;
 	}
 
+hr.break {
+	border: 0.5px solid #b5b5b5;
+	margin-bottom: 3em;
+}
+
 hr.proj-hr {
 	border: 0.5px solid #4F76EB;
 }
@@ -239,8 +258,36 @@ img {
 	max-height: 100%;
 }
 
+img.large-img {
+	max-width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+    right: 50%;
+}
+
+img.med-img {
+	max-width: 60vw;
+	left: 50%;
+	right: 50%;
+	margin-left: -30vw;
+	margin-right: -30vw;
+	position: relative;
+}
+
 img.work-img {
 	margin-bottom: 2em;
+}
+
+video.med-vid {
+	display: inline-block;
+    width: 70vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -35vw;
+    margin-right: -35vw;
+    position: relative;
 }
 
 a.proj-img-link {
@@ -629,7 +676,7 @@ p.footer-p {
 
 .container-case {
 	display: block;
-	width: 62.5%;
+	width: 75%;
 	margin: auto;
 }
 
@@ -714,6 +761,16 @@ p.footer-p {
 	width: 48.5%;
 }
 
+.intro-div {
+	margin-top: 7rem;
+}
+
+.intro-p {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+	width: 70%;
+}
+
 .project {
 	display: inline-block;
     width: 48.5%;
@@ -765,6 +822,24 @@ p.footer-p {
 
 /* Responsive */
 
+@media all and (min-width: 2560px) {
+	img.large-img {
+		max-width: 80vw;
+	    margin-left: -40vw;
+	    margin-right: -40vw;
+	}
+	img.med-img {
+		max-width: 40vw;
+	    margin-left: -20vw;
+	    margin-right: -20vw;
+	}
+	video.med-vid {
+	    width: 60vw;
+	    margin-left: -30vw;
+	    margin-right: -30vw;
+	}
+}
+
 @media all and (max-width: 1280px) {
 	.container {
 		max-width: 80%;
@@ -806,7 +881,7 @@ p.footer-p {
 	}
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1024px) {
 	.hero-l {
 		width: 75%;
 		margin-bottom: 5rem;
@@ -836,6 +911,9 @@ p.footer-p {
 		padding-left: 0;
 		margin-top: 2.5em;
 	}
+	.container-case {
+		width: 100%;
+	}
 	.case-container-flex {
 		display: block;
 	}
@@ -851,18 +929,18 @@ p.footer-p {
 	.case-container-lg, .img-half, .case-container, .case-desc {
 		width: 100%;
 	}
-	.img-half {
+	.intro-p {
 		width: 100%;
 	}
-	.img-flex-half {
-		display: block;
+	img.med-img {
+		max-width: 90vw;
+		margin-left: -45vw;
+		margin-right: -45vw;
 	}
-	video.home-vid {
-		width: 110%;
-		transform: translate(-3em, -0.5em);
-	}
-	#quote-sm {
-		width: 100%;
+	video.med-vid {
+		width: 100vw;
+    	margin-left: -50vw;
+    	margin-right: -50vw;
 	}
 }
 
@@ -912,6 +990,11 @@ p.footer-p {
 	}
 	h3.sect-title-space {
 		margin-top: 3.5em;
+	}
+	img.med-img {
+		max-width: 100vw;
+		margin-left: -50vw;
+		margin-right: -50vw;
 	}
 }
 
