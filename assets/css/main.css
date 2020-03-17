@@ -165,6 +165,8 @@ p.quote {
 	width: 60%;
 }
 
+/* Links */
+
 a {
 	text-decoration: none;
 	color: #2065ED;
@@ -177,6 +179,13 @@ a {
 	    -moz-transition: ease-in .2s;
 	    -webkit-transition: ease-in .2s;
 	}
+
+a.nav-type {
+	font-size: 17px;
+	font-weight: 600;
+	color: #020813;
+	letter-spacing: 0;
+}
 
 a.hero-link {
 	color: #525252;
