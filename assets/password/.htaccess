@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "twitter"  
+AuthUserFile ../twitter/.htpasswd  
+require valid-user
