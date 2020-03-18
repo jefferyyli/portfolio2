@@ -34,24 +34,24 @@
 				<h4 class="problem">Curious travellers and hikers want to explore and see as much as they can at the destination they are at. Not all information from various sources are the same or in-depth which may confuse new travellers/hikers. Some may even find it difficult to find a trail that would suit their needs.</h4>
 				<h3 class="sect-title">Scanning for mountains and trails using Augmented Reality</h3>
 				<p>The idea that sparked this entire project. Curious hikers are able to scan for information on a mountain or trail using their phone. This concept was created on Adobe After Effects.</p>
-				<video width="100%" height="100%" autoplay="autoplay" muted loop class="med-vid" data-aos="fade" data-aos-duration="800" data-aos-delay="200" data-aos-ease="ease-in-sine">
+				<video width="100%" height="100%" autoplay="autoplay" muted loop class="med-vid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-ease="ease-in-sine">
 				  <source src="assets/images/atlas/atlas_ar.mp4" type="video/mp4">
 				  Your browser does not support the video tag.
 				</video>
 				<h3 class="sect-title">A More Detailed Page for Hikers</h3>
 				<p>Through my research, I discovered there was a need for additional and accurate information for hiking trails. The most important information that was missing from most sources were hazards. Users are typically concerned with how dangerous the hike would be which would impact their decision making. For instance, one user I talked to avoids hikes where they must scale or climb rocks. Bears, unpaved and pet-friendly trails were also a concern for some users as well.</p>
 				<p>Other types of information users wanted to see were weather, sunset/sunrise times, peak times and navigating to the trail from where the user is.</p>
-				<img src="assets/images/atlas/atlas-info-large.png" class="large-img" data-aos="fade" data-aos-duration="800" data-aos-delay="200" data-aos-ease="ease-in-sine">
+				<img src="assets/images/atlas/atlas-info-large.png" class="large-img" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-ease="ease-in-sine">
 				<h3 class="sect-title">Crowdsourcing Information for Trails</h3>
 				<p>Through talking to users and some secondary research, I discovered that information such as elevation gain, time, difficulty and distance of each hikes varied between different sites, blogs and apps.</p>
 				<p>One solution for this problem would be to crowdsource this information when a user completes a hike. After completing this form, Atlas would adjust this information based on a user’s experience level and would then average out the information received from users.</p>
-				<img src="assets/images/atlas/atlas-4.png" class="med-img" data-aos="fade" data-aos-duration="800" data-aos-delay="200" data-aos-ease="ease-in-sine">
+				<img src="assets/images/atlas/atlas-4.png" class="med-img" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-ease="ease-in-sine">
 				<h3 class="sect-title">Searching for Trails</h3>
 				<p>Most users I’ve talked to has said that they discover trails through a Google search. The Atlas Discover feature would be able to help users find hikes in their area based on their experience level and would be able to filter through these options.</p>
 				<p>I wanted to try two different layouts for ‘Discover’ and decided to A/B test these layouts on my users. I wanted to understand how efficient it was for users to find something they were looking for.</p>
-				<img src="assets/images/atlas/atlas-5.png" class="med-img" data-action="zoom" data-aos="fade" data-aos-duration="800" data-aos-delay="200" data-aos-ease="ease-in-sine">
+				<img src="assets/images/atlas/atlas-5.png" class="med-img" data-action="zoom" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-ease="ease-in-sine">
 				<p>After testing with users, layout B became the clear choice as the layout was easier for users to understand and it was more efficient when they were looking for a trail based on the scenario they were given. I reiterated the designs based on feedback and then created an interactive prototype on Origami Studio.</p>
-				<video width="100%" height="100%" autoplay="autoplay" muted loop class="med-vid" data-aos="fade" data-aos-duration="800" data-aos-delay="200" data-aos-ease="ease-in-sine">
+				<video width="100%" height="100%" autoplay="autoplay" muted loop class="med-vid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-ease="ease-in-sine">
 				  <source src="assets/images/atlas/atlas_discover.mp4" type="video/mp4">
 				  Your browser does not support the video tag.
 				</video>
@@ -118,9 +118,11 @@
 	<script src="assets/js/transition.js"></script>
 	<!-- Animate on scroll -->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	 <script>
-	 	AOS.init();
-	 </script>
+	<script>
+    	AOS.init({
+      		disable: 'mobile'
+    	});
+  	</script>
 	 <!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109259214-1">
 	</script>
